@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>News & Events - Rightwood School</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .navbarr {
+    background: rgba(165, 162, 160, 0.7); /* Brown with 70% opacity */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: 35px;
+    width: 100%;
+    top: 35px;
+    z-index: 10;
+  }
+
+  .navbarr .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links li a:hover {
+    color: #ffcc00;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .nav-links {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 10px;
+    }
+  }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    .event {
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .event h3 {
+      color: #005599;
+      margin-top: 0;
+    }
+
+    .event .date {
+      color: #666;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .event-content {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .event-content img {
+      width: 160px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    .event-content p {
+      margin: 0;
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      .event-content {
+        flex-direction: column;
+      }
+
+      .event-content img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+          <span>RIGHTWOOD ACADEMY</span>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="news and event.html">News & Events</a>
+          <a href="academics.html">Academics</a>
+          <a href="contact form.html">Contact</a>
+        </nav>
+        <a href="#" class="tour-button">Schedule a Tour</a>
+      </header>
+
+  <div class="container">
+    <h2>News & Events</h2>
+
+    <div class="event">
+      <h3>Science Fair 2025</h3>
+      <div class="date">Scheduled for: June 14, 2025</div>
+      <div class="event-content">
+        <img src="img/science.webp" alt="Science Fair">
+        <p>
+          Our annual Science Fair is back! Students from all levels will showcase innovative projects and compete for exciting prizes. Parents and the community are welcome to attend.
+        </p>
+      </div>
+    </div>
+
+    <div class="event">
+      <h3>Grade 7 & 9 Mock Exams</h3>
+      <div class="date">Ongoing: May 5–16, 2025</div>
+      <div class="event-content">
+        <img src="img/mock exam.webp" alt="Mock Exams">
+        <p>
+          Mock exams for Grade 7 and Grade 9 are in progress. We wish all our students the best as they prepare for their national assessments.
+        </p>
+      </div>
+    </div>
+
+    <div class="event">
+      <h3>Open Day for New Parents</h3>
+      <div class="date">Upcoming: May 25, 2025</div>
+      <div class="event-content">
+        <img src="img/open day.webp" alt="Open Day">
+        <p>
+          Rightwood School invites prospective parents to visit and learn more about our programs, facilities, and curriculum. Tours and Q&A sessions will be held throughout the day.
+        </p>
+      </div>
+    </div>
+
+    <div class="event">
+      <h3>Inter-School Football Tournament</h3>
+      <div class="date">Event Date: April 29, 2025</div>
+      <div class="event-content">
+        <img src="img/sports.webp" alt="Football Tournament">
+        <p>
+          Our senior secondary team will be participating in the district football competition. Come support our players and celebrate school spirit!
+        </p>
+      </div>
+    </div>
+
+    <div class="event">
+      <h3>ICT Week Launch</h3>
+      <div class="date">Starting: July 8, 2025</div>
+      <div class="event-content">
+        <img src="img/ict launch.webp" alt="ICT Week">
+        <p>
+          A week dedicated to exploring technology and digital literacy. Activities include coding workshops, tech exhibitions, and guest speakers from the ICT industry.
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Student Life</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Admissions</h3>
+            <ul>
+                <li><a href="#">Admissions Step</a></li>
+                <li><a href="#">Inquire Now</a></li>
+                <li><a href="#">Schedule a Tour</a></li>
+                <li><a href="#">Apply Now</a></li>
+                <li><a href="#">Tuition & Fees</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Academics</h3>
+            <ul>
+                <li><a href="">Elementary School</a></li>
+                <li><a href="">Middle School</a></li>
+                <li><a href="">High School</a></li>
+                <li><a href="">Enrichment Activities</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+                <p>Lakewood Christian Schools<br>
+                5336 Arbor Rd.<br>
+                Long Beach, CA 90808</p>
+                
+                <p>Office Hours: 8:00 AM - 3:30 PM</p>
+                
+                <p>(123) 425-3358</p>
+                
+                <p>info@rightwoodcademy.com</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        © Copyright 2021 | RIGHTWOOD ACADEMY Websites | All Rights Reserved.
+    </div>
+</footer>
+</body>
+</html>
